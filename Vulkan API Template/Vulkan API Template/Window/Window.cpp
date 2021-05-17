@@ -6,3 +6,23 @@
 //
 
 #include "Window.hpp"
+
+
+
+Window::Window() {
+    std::cout << "Window initialize ..." << std::endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+Window::~Window() {
+    std::cout << "Window deinitialize ..." << std::endl;
+}

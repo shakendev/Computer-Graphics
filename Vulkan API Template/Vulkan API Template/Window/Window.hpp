@@ -8,6 +8,21 @@
 #ifndef Window_hpp
 #define Window_hpp
 
-#include <stdio.h>
+
+#pragma once
+
+#include <iostream>
+
+
+class Window final {
+//private:
+//public:
+    
+//private:
+public:
+    Window();
+    ~Window();
+};
+
 
 #endif /* Window_hpp */

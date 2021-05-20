@@ -46,6 +46,8 @@
 		B402A2842652D41900B55DCE /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		B402A2872652EB3500B55DCE /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
 		B402A2882652EB3500B55DCE /* Application.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Application.hpp; sourceTree = "<group>"; };
+		B4E3646A2655C3B60057DEA1 /* shader.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
+		B4E3646B2655C3DA0057DEA1 /* shader.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		B402A25B2652A2AA00B55DCE /* Vulkan API Template */ = {
 			isa = PBXGroup;
 			children = (
+				B4E364692655C3910057DEA1 /* shaders */,
 				B402A2862652EB2900B55DCE /* Application */,
 				B402A2802652D3AC00B55DCE /* Window */,
 				B402A27E2652D31C00B55DCE /* Vulkan API Template.entitlements */,
@@ -125,6 +128,15 @@
 				B402A2882652EB3500B55DCE /* Application.hpp */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		B4E364692655C3910057DEA1 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3646A2655C3B60057DEA1 /* shader.vert */,
+				B4E3646B2655C3DA0057DEA1 /* shader.frag */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +211,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -258,7 +270,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;

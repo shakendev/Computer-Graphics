@@ -43,8 +43,8 @@ struct Version {
 class Application final {
     // Variables and constants
 private:
-    GLFWwindow *window;
     Version version;
+    GLFWwindow *window;
     VkInstance instance;
 //public:
     

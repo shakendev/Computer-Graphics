@@ -28,7 +28,7 @@
 ![image alt](./RenderCoreImages/06_Animations.png)
 
 
-### Tesselation
+### Tessellation
 ![image alt](./RenderCoreImages/07_Tesselation.png)
 
 

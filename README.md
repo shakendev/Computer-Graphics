@@ -1,3 +1,3 @@
 # Computer-Graphics
 
-## CGI
+Proprietary Game Engine's Render Core based on Metal API

@@ -1,2 +1,3 @@
 # Computer-Graphics
-Computer Graphics
+
+## CGI
